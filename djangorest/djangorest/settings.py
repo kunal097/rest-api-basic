@@ -78,8 +78,8 @@ WSGI_APPLICATION = 'djangorest.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'cling',
-        'USER': 'jst',
+        'NAME': 'jst',
+        'USER': 'postgres',
         'PASSWORD': 'matrix@123',
         'HOST': '127.0.0.1',
         'PORT': '5432',
